@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Predictions</title> 
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dataset vs API Weather Prediction</h1>
+        <button onclick="fetchPredictions()">Compare Predictions</button>
+        <div id="results"></div>  
+        <div id="memoryUsage"></div>  
+    </div>
+
+    <div class="container temp-prediction">
+    <h1>Temperature Prediction</h1>
+    <form id="weatherForm">
+        <label for="location">Enter Location:</label>
+        <input type="text" id="location" name="location" required />
+        <button type="submit">Get Temperature</button>
+    </form>
+</div>
+
+    <h2 id="temperatureResult"></h2>
+    <script src="index.js"></script> 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini API Integration</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Weather Predictor</h1>
+    <textarea id="prompt" rows="5" cols="40" placeholder="Type your prompt..."></textarea><br>
+    <button onclick="getGeminiResponse()">Get Response</button>
+
+    <h3>Response:</h3>
+    <p id="response">Waiting for response...</p>
+
+    <script src="index.js"></script>
+
+    </body>
+</html>
